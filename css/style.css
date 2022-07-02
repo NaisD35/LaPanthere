@@ -1,3 +1,6 @@
+* {
+    font-display: swap;
+}
 .d-bloc .navbar-toggle .icon-bar,
 body {
     background: #fff;
@@ -275,7 +278,10 @@ a:hover {
 iframe {
     margin-bottom: 20px;
 }
-
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 26px;
+}
 .nav-invert .navbar-brand,
 .nav-invert .navbar-header {
     float: right;
@@ -430,7 +436,7 @@ a[data-lightbox] {
 }
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -522,7 +528,7 @@ h5,
 h6,
 label,
 p {
-    font-family: "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+    font-family: helvetica;
     font-weight: 400;
     color: #575757;
 }
@@ -612,7 +618,9 @@ h3 {
 .bgc-white {
     background-color: #fff;
 }
-
+.bgc-dark-slate-blue {
+    background-color: #364577;
+}
 .bgc-atomic-tangerine {
     background-color: #f3976c;
 }
