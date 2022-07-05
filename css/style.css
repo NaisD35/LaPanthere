@@ -879,8 +879,10 @@ h3 {
     font-size: 20px;
 }
 .avis {
-    border: 1px solid #f3976c;
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
 .col-sm-12 h1 {
@@ -892,6 +894,11 @@ h3 {
     font-size: 20px;
     color: #fff;
 }
+
+.services h2 {
+    color: #575757;
+}
+
 .social a {
     display: flex;
     justify-content: space-between;
