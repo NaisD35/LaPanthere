@@ -943,3 +943,8 @@ iframe {
     justify-content: center;
     align-items: center;
 }
+
+textarea {
+    max-width: 460px;
+    max-height: 250px;
+}
